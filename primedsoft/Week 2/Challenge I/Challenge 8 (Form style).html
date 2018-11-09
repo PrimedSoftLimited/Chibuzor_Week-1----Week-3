@@ -1,0 +1,83 @@
+<div id="container"  style="padding: 10px; width: 25%; border: 2px solid white; background-color: cornflowerblue;">
+    <form id="formid" action="jwokomaty@gmail.com" method="GET">
+        <fieldset>
+            <legend>
+                <strong>Purchases</strong>
+            </legend>
+            <p>
+                <label for="pname">Product Name:</label>
+    <br>
+                <select accesskey="p" tabindex="1" name="pname">
+                    <optgroup label="Textile">
+                        <option>Cool shirts</option>
+                        <option>Fancy pants</option>
+                        <option>Italian shoes</option>
+                    </optgroup>
+                    <optgroup label="Computer Hardware">
+                        <option>Laptops</option>
+                        <option>External drives</option>
+                        <option>Cameras</option>
+                    </optgroup>
+                    <optgroup label="Grocery">
+                        <option>Tomatoes</option>
+                        <option>Butter</option>
+                        <option>Apples</option>
+                    </optgroup>
+                </select>
+    <br>
+                <label for="qty">Quantity:</label>
+    <br>        <input accesskey="q" tabindex="2" name="qty" min="1" max="100">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <strong>Personal details</strong>
+            </legend>
+            <p>
+                <label for="fname">First Name:</label>
+    <br>
+                <input accesskey="f" tabindex="3" name="fname">
+    <br>
+                <label for="lname">Last Name:</label>
+    <br>
+                <input accesskey="l" tabindex="4" name="lname">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <strong>Credit Card Details</strong>
+            </legend>
+            <p>
+                Credit Card Type:
+    <br>
+                <form>
+                    <input tabindex="5" type="radio"name="card"><label for="card">Visa</label>
+    <br>
+                    <input tabindex="6" type="radio" name="card"><label for="card">Mastercard</label>
+    <br>
+                </form>
+                <label for="ccn">Credit Card Number:</label><br><input accesskey="c" tabindex="7" name="ccn">
+    <br>
+                <label for="ed">Expiry Date:</label><br><input accesskey="e" tabindex="8" name="ed">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <strong>Billing Information</strong>
+            </legend>
+            <label for="pa">Postal Address:</label>
+    <br>    
+            <textarea tabindex="9" col="50" row="7" form="formid" name="pa">
+            </textarea>
+    <br>
+            <label for="ha">Home Address:</label>
+            <input tabindex="10" type="checkbox" name="same">
+            <label for="same">Same as above</label>
+    <br>
+            <textarea tabindex="11" col="100" row="7" form="formid" name="ha">
+            </textarea>
+        </fieldset>
+    <br>
+        <input accesskey="s" tabindex="12" type="submit" value="Place my order">
+    </form>
+</div>

@@ -1,0 +1,15 @@
+ul {
+    text-align: center;
+}
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0;
+}
+a {
+    color: purple;
+}
+
+p.copyright {
+  font-style: italic;
+}

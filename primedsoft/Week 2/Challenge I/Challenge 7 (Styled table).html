@@ -1,0 +1,59 @@
+<!-- Challenge 7 (styled table from challenge 3) -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            thead {
+                text-align: left;
+            }
+
+            tr {
+                height: 50%;
+                vertical-align: bottom;
+            }
+
+            th, td {
+                padding: 15px;
+                border-bottom: 1px solid #ccc;
+            }
+            tr:hover {
+                background-color: #f6f;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>City</th><th>January</th><th>February</th><th>March</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sydney</td><td>38.1</td><td>39.1</td><td>37.3</td>
+                    </tr>
+                    <tr>
+                        <td>Melbourne</td><td>34.1</td><td>35.1</td><td>34.3</td>
+                    </tr>
+                    <tr>
+                        <td>Adelaide</td><td>34.3</td><td colspan="2">No data</td>
+                    </tr>
+                    <tr>
+                        <td>Hobart</td><td>24.8</td><td>25.2</td><td>19.8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+<!-- end of challenge 7 -->
