@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* body:not(#header-cont section) {
+    background-image: url("assets/glass.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* header */
+
+#header-cont {
+    width: 100%;
+    position: fixed;
+    position: fixed;
+    top: 0px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    position: fixed;
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.link {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.icon {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+.bord {
+    border: 1px solid rgb(244, 199, 97);
+    padding: 5px;
+}
+
+#right {
+    float: right;
+    padding-right: 20px;
+}
+
+/* sidebar */
+
+section {
+    position: fixed;
+    float: right;
+    left: 70%;
+    width: 30%;
+    margin-top: 75px;
+    height: 100%;
+}
+
+#author {
+    box-sizing: content-box;
+    float: right;
+    margin-right: 150px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#author-name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130%;
+    padding-left: 0px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+#dot {
+    display: inline-block;
+    padding: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: rgb(244, 199, 97);
+   
+} 
+
+#accolades {
+    font-style: italic;
+    float: right;
+    margin-top: -25px;
+}
+
+.author-bio-head {
+    margin: 20px 0px 10px 5px;
+    font-size: xx-large;
+    text-decoration: overline;
+}
+
+#lin-section {
+    margin-top: 50px;
+}
+
+#btn-lin {
+    padding: 4px;
+    font-family: cursive;
+    color: #fff;
+    background-color: #333;
+    border-width: thin;
+}
+
+#btn-lin:hover {
+    cursor: pointer;
+}
+
+/* content */
+
+#landing {
+    float: left;
+    width: 69%;
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+}
+
+h1~p::first-letter {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#article {
+    float: left;
+    width: 69%;
+    padding: 0px 20px;
+}

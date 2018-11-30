@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Poppins', serif;
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: orange;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    padding-left: 15px;
+    float: right;
+    right: 100px;
+}
+
+#wow {
+    font-size: 70px;
+}
+
+hr {
+    color: coral;
+}
+
+#post {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+#wrap {
+    background-image: url("assets/looking-girl.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-bottom: 4px; 
+    border-bottom-color: gold;
+    border-bottom-style: dotted;
+}
+
+article {
+    padding-top: 25px;
+    font-size: x-large;
+}
+
+article::first-letter {
+    font-size: xx-large;
+    text-decoration: overline;
+}
